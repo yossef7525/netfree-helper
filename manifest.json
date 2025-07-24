@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Netfree Block Detector",
+  "version": "1.0",
+  "description": "זיהוי אוטומטי של חסימות נטפרי (קוד 418)",
+  "permissions": ["webRequest", "storage"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": "icons/icon-48.png",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "48": "icons/icon-48.png"
+  }
+}
